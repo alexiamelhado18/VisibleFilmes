@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --preto: #000000;
+    --branco: #ffffff;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sessao-logo{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sessao-logo > img{height: 5vh;}
+.sessao-logo > p{
+font-family: 'Fira Sans Condensed', sans-serif;
+font-size: 18px;
+color:#ffffff;
+margin: 0;}

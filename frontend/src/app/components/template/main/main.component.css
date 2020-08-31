@@ -1,0 +1,68 @@
+
+/* main */
+p{margin: 0;}
+main.conteup-film {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;}
+
+.sessao-options-films {
+    width: 88vw;
+    height: 48vh;
+    align-items: center;
+    justify-content: space-between;}
+
+#imagemFilme{width: 21vw; height: 54vh; opacity: 0.7;}
+
+div#info-film {
+    display: flex;
+    background: var(--preto3);
+    height: 12vh;
+    position: absolute;
+    width: 21vw;
+    top: 459px;
+    flex-direction: column;
+    justify-content: space-around;}
+    
+.cx-info > a{cursor: pointer; color: var(--cinza3);font-size: 14px;}
+
+.title-categ > p {color: var(--cinza3);}
+.avali-deth > p {color: var(--cinza3);}
+
+.title-categ{
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;}
+
+.avali-deth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+.sessao-avalia {
+    width:7.8vw;
+    display: flex;
+    justify-content: space-between;}
+.sessao-avalia > p{color:var(--cinza3);}  
+  
+.cx-avalia {width: 35px; height: 3vh;}
+.cx-avalia > p{color:var(--amarelo2);}
+.cx-avalia > p{display: flex; justify-content: space-between; align-items: center;}
+.cx-avalia > p >img {height: 2vh;}
+
+a#abrirModal {width: 9vw;}
+
+/* #info-film:hover {    
+    display: block;
+    background: rgba(170, 170, 170, 0.74);
+    background: #000000c2;
+    height: 19vh;
+    position: absolute;
+    width: 17vw;
+    top: 330px;} */
+
+    
+    
+    

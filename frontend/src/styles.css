@@ -1,4 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+*{
+    padding: 0;
+    margin: 0;
+    background: var(--preto1);
+    font-family: 'Roboto', sans-serif;}
+
+:root{
+    --branco: #ffffff;
+    --amarelo:#FFD400;
+    --amarelo2: #a28800;
+    --preto1: #000000;
+    --preto2: #171717;
+    --preto3:#000000c2;
+    --cinza: #6c757d;
+    --cinza2: #5252529e;
+    --cinza3:#616161;
+    --vermelho:#b10101;}
+
+h1,p,main,div,section,span,a{background: none; margin: 0;}

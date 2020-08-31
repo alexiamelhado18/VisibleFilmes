@@ -1,31 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 
 *{
-    margin: 0;
     padding: 0;
-}
+    margin: 0;
+    background: var(--preto1);
+    font-family: 'Roboto', sans-serif;}
 
 :root{
-    --preto: #000000;
     --branco: #ffffff;
-}
+    --amarelo:#FFD400;
+    --amarelo2: #a28800;
+    --preto1: #000000;
+    --preto2: #171717;
+    --preto3:#000000c2;
+    --cinza: #6c757d;
+    --cinza2: #5252529e;
+    --cinza3:#616161;
+    --vermelho:#b10101;}
 
-.menu{
+h1,p,main,div,section,span,a{background: none;}
+/* header */
+
+.menu{width: 100%;  
+    display: flex;
+    height: 18vh;
+    flex-direction: column;}
+
+.sessao-logo{ display: flex; justify-content: space-between; width:13.4vw; height: 8vh; align-items: center; margin-left: 5em;}
+.sessao-logo > img{height: 4vh;}
+.sessao-logo > a{font-size: 26px; color:  var(--vermelho);text-decoration: none; padding-top: 6px;}
+
+section.sub-menu-filtro {
+    background: var(--preto2);
     width: 100%;
+    height: 10vh;
     display: flex;
-    justify-content: space-between;
-}
+    justify-content: center;
+    align-items: center;}
 
-.sessao-logo{
+.separete-options {
     display: flex;
-    width: 30vw;
-    justify-content: space-between;
     align-items: center;
-}
+    width: 88vw;
+    justify-content: space-between;
+    background: var(--preto2);}
 
-.sessao-logo > img{height: 5vh;}
-.sessao-logo > p{
-font-family: 'Fira Sans Condensed', sans-serif;
-font-size: 18px;
-color:#ffffff;
-margin: 0;}
+.separete-categ {
+    display: flex;
+    width: 60vw;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--preto2);}
+
+/* .card-categ{
+    
+    width: 7vw;
+    height: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;   
+    border: 1px solid var(--cinza);} */
+
+.card-categ{
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.card-categ:hover{background: #333333; border-bottom: 2px solid #842424;}
+.card-categ > a:hover{ color: #842424;}
+
+.tam-m{width: 8vw;}
+
+.card-categ > a{text-decoration: none; color: var(--cinza); font-size: 18px; text-transform: uppercase; cursor: pointer;}
+
+div#divBusca {display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    width: 21vw;
+    height: 5vh;
+    background: var(--preto3);}
+    
+input#txtBusca {border: none; outline: none; color: var(--cinza2); width:16vw; height: 5vh;font-size: 16px; }
+
+::-webkit-input-placeholder {color: var(--cinza2);}
+
+img#btnBusca {height: 2.3vh;; margin-right: 8px; cursor: pointer;}
+
+/* fim de header */

@@ -1,0 +1,4 @@
+/* footer */
+.footer{display: flex; justify-content: center; align-items: center; height: 6vh;}
+.footer > p{color: var(--cinza); font-size: 17px; text-align: center;}
+.footer > p >span{color: var(--vermelho);}

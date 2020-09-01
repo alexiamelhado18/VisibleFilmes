@@ -3,17 +3,19 @@
 p{margin: 0;}
 main.conteup-film {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    height: 75vh;}
+    height: 127vh;}
 
 .sessao-options-films {
     width: 88vw;
-    height: 48vh;
+    display: flex;
     align-items: center;
     justify-content: space-between;}
 
 #imagemFilme{width: 21vw; height: 54vh; opacity: 0.7;}
+.sessao-options-films > img {height: 4vh;}
 
 div#info-film {
     display: flex;
@@ -21,9 +23,11 @@ div#info-film {
     height: 12vh;
     position: absolute;
     width: 21vw;
-    top: 459px;
+    top: 625px;
     flex-direction: column;
     justify-content: space-around;}
+
+.infom2{top: 1283px !important;}
     
 .cx-info > a{cursor: pointer; color: var(--cinza3);font-size: 14px;}
 
@@ -42,17 +46,16 @@ div#info-film {
     align-items: center;}
 
 .sessao-avalia {
-    width:7.8vw;
+    width:5.8vw;
     display: flex;
     justify-content: space-between;}
 .sessao-avalia > p{color:var(--cinza3);}  
   
-.cx-avalia {width: 35px; height: 3vh;}
-.cx-avalia > p{color:var(--amarelo2);}
-.cx-avalia > p{display: flex; justify-content: space-between; align-items: center;}
+.cx-avalia {width: 43px; height: 3vh;}
+.cx-avalia > p{display: flex; justify-content: space-between; align-items: center;color:var(--amarelo2);}
 .cx-avalia > p >img {height: 2vh;}
 
-a#abrirModal {width: 9vw;}
+a#abrirModal {width: 7vw;}
 
 /* #info-film:hover {    
     display: block;

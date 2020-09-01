@@ -17,3 +17,4 @@
 
 
 OBS: A responsividade do protótipo seria apenas no tamanho:  1440px.
+Linguaguem usada: @Angular

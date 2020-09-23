@@ -1,4 +1,4 @@
-# Desafio-EICON
+# VisibleFilmes
 <--- Instruções de como rodar o protótipo do DESAFIO --->
 
 *Assim que baixar como zip, ou dar clone atráves do Git, usar um IDE(usei Visual Studio Code);
